@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "hopping_leg"
+version = "0.1.0"
+description = "Hopping Leg"
+authors = ["Antonio López Rivera"]
+license = "GPL-3.0-or-later"
+
+[tool.poetry.dependencies]
+python = "^3.8, <3.11"
+moteus = "^0.3.38"
+asyncio = "^3.4.3"
+PyYAML = "^6.0"
+mpl-plotter = "^5.1.1"
+PyQt5 = "5.14.0"
+pandas = "^1.4.2"
+scipy = "^1.8.1"
+stable-baselines3 = "^1.5.0"
+toml = "^0.10.2"
+mini-cheetah-motor-driver-socketcan = "0.3.2"
+bitstring = "^3.1.9"
+moteus-gui = "^0.3.42"
+pybullet = "^3.2.5"
+numpy = "^1.23.2"
+drake = "^1.13.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
