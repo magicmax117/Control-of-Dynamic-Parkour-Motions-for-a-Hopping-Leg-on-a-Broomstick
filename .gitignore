@@ -1,0 +1,15 @@
+# pycache
+**/__pycache__/**
+
+# workspace
+**/.workspace
+**/.emacs.desktop*
+
+# active buffers
+**/*~
+
+# aux files
+**/*#
+
+# LCM bindings
+software/python/lcm_bnds
