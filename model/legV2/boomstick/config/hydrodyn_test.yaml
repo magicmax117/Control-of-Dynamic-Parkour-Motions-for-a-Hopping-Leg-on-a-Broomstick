@@ -1,0 +1,57 @@
+submechanisms:
+  - name: "complete"
+    type: "PRRPPPPRRR"
+    contextual_name: "leg_mech"
+    jointnames_independent: ["joint_passive_linear_1", "joint_yaw", "joint_pitch", "joint_passive_linear_2",
+                             "joint_passive_linear_3", "joint_passive_linear_4", "joint_passive_linear_5",
+                             "joint_endeffektor_roll", "Joint_Hip_Roll", "Joint_Hip_Pitch", "Joint_Knee_Pitch",
+                             "Joint_Endeffector"]
+    jointnames_spanningtree: ["joint_passive_linear_1", "joint_yaw", "joint_pitch", "joint_passive_linear_2",
+                              "joint_passive_linear_3", "joint_passive_linear_4", "joint_passive_linear_5",
+                              "joint_endeffektor_roll", "Joint_Hip_Roll", "Joint_Hip_Pitch", "Joint_Knee_Pitch",
+                              "Joint_Endeffector"]
+    jointnames_active: ["joint_passive_linear_1", "joint_yaw", "joint_pitch", "joint_passive_linear_2",
+                        "joint_passive_linear_3", "joint_passive_linear_4", "joint_passive_linear_5",
+                        "joint_endeffektor_roll", "Joint_Hip_Roll", "Joint_Hip_Pitch", "Joint_Knee_Pitch",
+                        "Joint_Endeffector"]
+#    jointnames: ["fixed", "joint_passive_linear_1", "joint_yaw", "joint_pitch", "joint_passive_linear_2",
+#                 "joint_passive_linear_3", "joint_passive_linear_4", "joint_passive_linear_5",
+#                 "joint_endeffektor_roll", "Joint_Hip_Roll", "Joint_Hip_Pitch", "Joint_Knee_Pitch", "joint_EE"]
+
+
+#  - name: "Stance"
+#    type: "FPRR"
+#    contextual_name: "stance_mech"
+#    jointnames_independent: ["fixed", "joint_passive_linear_1", "joint_yaw", "joint_pitch"]
+#    jointnames_spanningtree: ["fixed", "joint_pitch"]
+#    jointnames_active: ["joint_passive_linear_1", "joint_yaw", "joint_pitch"]
+#
+#  - name: "Boomstick"
+#    type: "PPPPRF"
+#    contextual_name: "boom_mech"
+#    jointnames_independent: ["joint_passive_linear_2", "joint_passive_linear_3", "joint_passive_linear_4",
+#                             "joint_passive_linear_5", "joint_endeffektor_roll", "Joint_Hip_Roll"]
+#    jointnames_spanningtree: ["joint_passive_linear_2", "Joint_Hip_Roll"]
+#    jointnames_active: ["joint_passive_linear_2", "joint_passive_linear_3", "joint_passive_linear_4",
+#                        "joint_passive_linear_5", "joint_endeffektor_roll"]
+#
+#  - name: "Leg"
+#    type: "RR"
+#    contextual_name: "leg_mech"
+#    jointnames_independent: ["Joint_Hip_Pitch", "Joint_Knee_Pitch"]
+#    jointnames_spanningtree: ["Joint_Hip_Pitch", "Joint_Knee_Pitch"]
+#    jointnames_active: ["Joint_Hip_Pitch", "Joint_Knee_Pitch"]
+
+
+#
+#  <link name="world">
+#    <inertial>
+#      <origin xyz="0 0 0" rpy="0 0 0"/>
+#      <mass value="1.0"/>
+#      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+#    </inertial>
+#  </link>
+#  <joint name="fixed" type="fixed">
+#    <parent link="world"/>
+#    <child link="base_link"/>
+#  </joint>

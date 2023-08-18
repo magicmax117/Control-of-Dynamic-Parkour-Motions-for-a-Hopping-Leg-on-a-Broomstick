@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a custom box -->
+<robot
+  name="Box">
+  <link name="world"/>
+  <joint name="fixed" type="fixed">
+    <parent link="world"/>
+    <child link="box"/>
+  </joint>
+  <link name="base_link">
+       <inertial>
+         <mass value="10"/>
+         <inertia ixx="0.4" ixy="0.0" ixz="0.0" iyy="0.4" iyz="0.0" izz="0.2"/>
+       </inertial>
+       <visual>
+         <geometry>
+           <cylinder length="0.1" radius="0.15"/>
+         </geometry>
+         <material name="blue">
+           <color rgba="255 0 0 1"/>
+         </material>
+       </visual>
+       <collision>
+         <geometry>
+           <cylinder length="0.1" radius="0.15"/>
+         </geometry>
+       </collision>
+     </link>
+</robot>

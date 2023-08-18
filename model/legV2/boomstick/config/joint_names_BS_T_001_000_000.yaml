@@ -1,0 +1,1 @@
+controller_joint_names: ['', 'joint_passive_linear_1', 'joint_yaw', 'joint_pitch', 'joint_passive_linear_2', 'joint_passive_linear_3', 'joint_passive_linear_4', 'joint_passive_linear_5', 'joint_endeffektor_roll', ]
