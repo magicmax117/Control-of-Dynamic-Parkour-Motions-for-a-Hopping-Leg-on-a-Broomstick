@@ -1,0 +1,13 @@
+Leg-v2 (with mjbots motors)
+
+
+PD control over a wide sinusoidal trajectory
+
+Motor id Hip = 3
+Motor id Knee = 1
+
+Kp Scale Hip = 1
+Kd Scale Hip = 3
+
+Kp Scale knee = 5
+Kd Scale Knee = 20

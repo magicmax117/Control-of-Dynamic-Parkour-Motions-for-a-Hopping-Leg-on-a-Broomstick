@@ -1,0 +1,21 @@
+Dynamically Identified Parameters:
+Lc1*m1     = +2.143e-02
+I1         = +3.293e-03
+Fc1        = +4.124e-02
+Fv1        = +9.449e-03
+Ir         = +1.043e-04
+Lc2*m2     = +3.000e-03
+m2         = +1.250e-01
+I2         = +1.000e-03
+Fc2        = +2.324e-02
+Fv2        = +3.962e-02
+
+Mean Absolute Error:
+MEA1 ||Q_meas - Q_initial|| = 0.5138671577729098
+MEA2 ||Q_meas - Q_est|| = 0.23183598844771738
+Mean absolute error decreases over time: MAE2 < MEA1
+
+Root Mean Square Error:
+RMSE1 ||Q_meas - Q_initial|| = 1.0420780670129919
+RMSE2 ||Q_meas - Q_est|| = 0.3850853577349374
+Root mean square error decreases over time: RMSE2 < RMSE1

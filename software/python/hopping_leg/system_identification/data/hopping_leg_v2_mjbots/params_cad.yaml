@@ -1,0 +1,25 @@
+# hopping leg V2 mjbots initial parameters 29.07.2022
+g: -9.81                      # gravity vector
+m1: 0.757                     # mass of femur (Link Hip Pitch)
+m2: 0.118                     # mass of tibia (Link Knee Pitch) 
+I1: 0.0012629                 # moment of inertia (izz)
+I2: 0.0000983
+L1: 0.15                      # link lengths
+L2: 0.15
+Lc1: 0.015                    # center of gravity of links
+Lc2: 0.045
+Fc1: 0.00001                  # coulomb friction
+Fc2: 0.00001
+Fv1: 0.00001                  # viscous friction
+Fv2: 0.00001
+Ir: 0.000060719               # rotor inertia
+n1: 6                         #gear ratio joint1
+n2: 12
+Irr1: 0.002186                # reflected rotor inertia (Irr = n**2*Ir)                        
+Irr2: 0.002186                # reflected rotor inertia (Irr = n**2*Ir)
+  
+# Note: Differences between Solidworks and URDF export
+# Hip CAD inertia: izz = 2288276.473 g*(mm²)
+# Hip URDF inertia: izz = 0.0012629  kg*(m²)
+# Knee CAD inertia: izz = 698351.856  g*(mm²)
+# Knee URDF inertia: izz = 0.0000983  kg*(m²)
