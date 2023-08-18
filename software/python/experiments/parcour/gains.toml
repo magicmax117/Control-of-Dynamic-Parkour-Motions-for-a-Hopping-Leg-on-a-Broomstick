@@ -1,0 +1,63 @@
+[TOUCHDOWN]
+Kp_JS = [0.1, 0.1]
+Kd_JS = [0.5, 0.5]
+
+[REPOSITION]
+Kp_JS = [4, 4]
+Kd_JS = [0.3, 0.3]
+
+[STAGING]
+Kp_JS = [11, 9]
+Kd_JS = [0.3, 0.5]
+
+[FLIGHT]
+Kp_JS = [2, 2]
+Kd_JS = [0.2, 0.2]
+
+#[FLIGHT]
+#Kp_JS = [0.8, 0.8]
+#Kd_JS = [0.1, 0.1]
+
+[EXERTION]
+Kp_CS = [0]
+Kd_CS = [0, 0]
+
+# Memory on rail gains
+        # [FLIGHT]
+        # Kp_JS = [2, 2]
+        # Kd_JS = [0.1, 0.1]
+        #
+        # [TOUCHDOWN]
+        # Kp_JS = [3, 3]
+        # Kd_JS = [0.7, 0.7]
+        # boomstick
+        # [TOUCHDOWN]
+        # Kp_JS = [5, 4]
+        # Kd_JS = [0.5, 0.7]
+
+# MEMORY ON OLD GAINS
+#[STAGING]
+#Kp_JS = [0.5, 0.7]
+#Kd_JS = [0.3, 0.3]
+#
+#[TOUCHDOWN]
+#Kp_JS = [4, 4]
+#Kd_JS = [0.4, 0.9]
+#
+#[FLIGHT]
+#Kp_JS = [2, 2]
+#Kd_JS = [0.2, 0.2]
+#
+#[EXERTION]
+#Kp_CS = [0]
+#Kd_CS = [0, 0]
+#
+#[LIFTOFF]
+#Kp_JS = [50, 10]
+#Kd_JS = [1,  1]
+#Kp_CS = [8000, 12000]
+#Kd_CS = [10, 10]
+#
+#[TESTER]
+#Kp = [1]
+#Kd = [0.5]
