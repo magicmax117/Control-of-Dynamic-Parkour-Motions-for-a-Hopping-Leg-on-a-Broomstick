@@ -1,0 +1,11 @@
+# from hopping_leg.parcour_functions.optimal_motion_planning_full_circle import motion_planning
+# from hopping_leg.parcour_functions.optimal_motion_planning_v3_backup import motion_planning
+# from hopping_leg.parcour_functions.optimal_motion_planning_max_capacity import motion_planning
+# from hopping_leg.parcour_functions.optimal_motion_planning_correct import motion_planning
+# from hopping_leg.parcour_functions.optimal_motion_planning import motion_planning
+# from hopping_leg.parcour_functions.optimal_motion_planning_quarter_1 import motion_planning
+# from hopping_leg.parcour_functions.optimal_motion_planning_fide import motion_planning
+from hopping_leg.parcour_functions.optimal_motion_planning_front_and_back_v2 import motion_planning
+# from hopping_leg.parcour_functions.optimal_motion_planning_front_and_back_v3 import motion_planning
+
+motion_planning()
