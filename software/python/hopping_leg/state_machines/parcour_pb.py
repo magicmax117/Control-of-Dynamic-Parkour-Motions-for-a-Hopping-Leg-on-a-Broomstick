@@ -12,11 +12,11 @@ from spine.controller.abstract import AbstractController
 # HOPPING LEG
 # from controllers.PD_JS.ctrl import Controller_Stiffness_Joint
 # from controllers.PD_CS.ctrl import Controller_Stiffness_Cartesian
-from hopping_leg.controllers.PD_CJS.ctrl import Controller_Stiffness_Combined
+#from hopping_leg.controllers.PD_CJS.ctrl import Controller_Stiffness_Combined
 from hopping_leg.controllers.PD_JS.ctrl import Controller_Stiffness_Joint
 from hopping_leg.controllers.Exertion.ctrl import Controller_Stiffness_Cartesian
-from hopping_leg.controllers.TESTER.ctrl import test_controller
-from hopping_leg.controllers.Flight.ctrl import Controller_Stiffness_Joint as flight
+#from hopping_leg.controllers.TESTER.ctrl import test_controller
+#from hopping_leg.controllers.Flight.ctrl import Controller_Stiffness_Joint as flight
 
 from hopping_leg.state_estimation.contact import contact_effort_threshold
 from hopping_leg.state_estimation.pybullet import contact_pybullet
@@ -167,9 +167,9 @@ class StateMachine(AbstractController):
             'TESTER': lambda state, r, theta, count, r_go: "TESTER"}
 
         _controller = {
-            'JOINT': Controller_Stiffness_Joint,
-            'CARTESIAN': Controller_Stiffness_Cartesian,
-            'COMBINED': Controller_Stiffness_Combined,
+            #'JOINT': Controller_Stiffness_Joint,
+            #'CARTESIAN': Controller_Stiffness_Cartesian,
+            #'COMBINED': Controller_Stiffness_Combined,
             'PARCOUR': Controller_Stiffness_Joint,
         }[controller]
 
