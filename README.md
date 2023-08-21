@@ -1,17 +1,12 @@
 # Control of Dynamic Parkour Motions for a Hopping Leg on a Broomstick
 
-This repositoy serves as an appendix to my Masterthesis. It provides video footage of the final experiments and the developed software.
-Since the code is dependent on DFKI intern packages, a public installation guide is not reasonable. As soon as those packages are open sourced, this repository will be updated with a detailed installation guide.
-
-If you are the new maintainer of the project, please check the [introduction to the project](https://git.hb.dfki.de/underactuated-robotics/hopping_leg/-/blob/master/docs/introduction/INTRODUCTION.md)
+This repositoy serves as an appendix to my Masterthesis. It serves not as an active repository for future development.
+Provided is video footage of the final experiments and the developed software.
+Since the code is dependent on DFKI intern packages, a public installation guide is not reasonable.
 
 ### STRUCTURE
 
 This repository consists of three main folders.
-
-- `videos`
-  
-  Video footage of the experiments discussed in the thesis
 
 - `model`
 
@@ -19,8 +14,13 @@ This repository consists of three main folders.
 
 - `software`
 
-  Python Files containing the developed code
+  Python files containing the developed code
+
+- `videos`
+  
+  Video footage of the experiments discussed in the thesis
 
 
+### VIDEOS
 
-[Back to the top](#hopping-leg)
+The videos are named the same as the section of the thesis in which they are discussed. Additionally the video 'Parkour Compilation' shows a compilation of all three experiments as well as close ups of each obstacle traversal in the multiple obstacle parkour.
