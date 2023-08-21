@@ -1,6 +1,6 @@
 # Control of Dynamic Parkour Motions for a Hopping Leg on a Broomstick
 
-This repositoy serves as an appendix to my Masterthesis. It serves not as an active repository for future development.
+This repositoy serves as an appendix to my Masterthesis. It is not an active repository for future development.
 Provided is video footage of the final experiments and the developed software.
 Since the code is dependent on DFKI intern packages, a public installation guide is not reasonable.
 
@@ -23,4 +23,4 @@ This repository consists of three main folders.
 
 ### VIDEOS
 
-The videos are named the same as the section of the thesis in which they are discussed. Additionally the video 'Parkour Compilation' shows a compilation of all three experiments as well as close ups of each obstacle traversal in the multiple obstacle parkour.
+The videos are named the same as the thesis section in which they are discussed. Additionally the video 'Parkour Compilation' shows a compilation of all three experiments as well as close ups of each obstacle traversal in the multiple obstacle parkour.
